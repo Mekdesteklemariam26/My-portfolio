@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Thrive with Confidence Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- HEADER / NAVIGATION -->
+  <header class="header">
+    <nav class="nav">
+      <h1 class="logo"><b>My portfolio</b></h1>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#tips">Tips</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+<!-- HERO SECTION -->
+<section id="home" class="hero">
+
+    <div class="side-profile">
+        <img src="images/my.jpg" alt="Profile" class="side-img">
+       
+   
+    </div>
+<br>
+<br>
+<br>
+<br>
+    <div class="hero-content fade-up">
+        <h2>Welcome to</h2>
+        <h1 class="gradient-text">Thrive with Confidence Portfolio</h1>
+
+        <div class="marquee-container">
+            <div class="marquee-content">
+                Health • Confidence • Wellness • Growth • Motivation • Strength • Energy •
+            </div>
+        </div>
+
+        <a href="#portfolio" class="btn">Explore My Work</a>
+    </div>
+
+</section>
+
+  <!-- ABOUT SECTION -->
+  <section id="about" class="section fade-up">
+    <h2>About Me</h2>
+    <p>
+      I empower individuals to build confidence and achieve wellness through practical tips, health projects, and transformative initiatives. My work inspires personal growth and vitality.
+    </p>
+  </section>
+
+  <!-- PORTFOLIO SECTION -->
+  <section id="portfolio" class="section portfolio fade-up">
+    <h2>Portfolio</h2>
+    <div class="cards">
+      <div class="card-container">
+        <img class="card-img" src="images/health.webp" alt="Health Projects" onclick="openModal('Health Projects','Projects to improve health and wellness','images/health.webp')">
+        <p class="card-info">
+          <b>Health Projects</b><br>
+          Focused on fitness routines, balanced nutrition, and wellness programs.<br>
+          <i>Tools: Fitness apps, Nutrition tracking</i>
+        </p>
+      </div>
+      <div class="card-container">
+        <img class="card-img" src="images/confidence.webp" alt="Confidence Programs" onclick="openModal('Confidence Programs','Confidence building initiatives','images/confidence.webp')">
+        <p class="card-info">
+          <b>Confidence Programs</b><br>
+          Boost self-confidence through workshops, coaching, and personal growth exercises.<br>
+          <i>Tools: Coaching guides, Online modules</i>
+        </p>
+      </div>
+      <div class="card-container">
+        <img class="card-img" src="images/wellness.webp" alt="Wellness Workshops" onclick="openModal('Wellness Workshops','Wellness and mindfulness workshops','images/wellness.webp')">
+        <p class="card-info">
+          <b>Wellness Workshops</b><br>
+          Mindfulness, meditation, and holistic wellness workshops for daily life.<br>
+          <i>Tools: Mindfulness apps, Yoga sessions</i>
+        </p>
+      </div>
+      <div class="card-container">
+        <img class="card-img" src="images/success.webp" alt="Success Stories" onclick="openModal('Success Stories','Inspiring success stories','images/success.webp')">
+        <p class="card-info">
+          <b>Success Stories</b><br>
+          Inspiring stories of individuals achieving personal and professional growth.<br>
+          <i>Tools: Case studies, Interviews</i>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SKILLS SECTION -->
+  <section id="skills" class="section skills fade-up">
+    <h2>My Skills</h2>
+    <div class="skills-container">
+      <div class="skill-card">
+        <img src="skill/fitness.webp" alt="Fitness" class="skill-img">
+        <p>Fitness</p>
+      </div>
+      <div class="skill-card">
+        <img src="skill/nutrition.webp" alt="Nutrition" class="skill-img">
+        <p>Nutrition</p>
+      </div>
+      <div class="skill-card">
+        <img src="skill/Mindfulness.jpg" alt="Mindfulness" class="skill-img">
+        <p>Mindfulness</p>
+      </div>
+      <div class="skill-card">
+        <img src="skill/confidence.webp" alt="Confidence" class="skill-img">
+        <p>Confidence</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION -->
+  <section id="testimonials" class="section fade-up">
+    <h2>Testimonials & Success Stories</h2>
+    <div class="cards">
+      <div class="card-container">
+        <img class="card-img" src="success/confidence.jpeg" alt="Jane's Transformation" onclick="openModal('Jane’s Story','Jane improved her confidence in just 3 weeks using my program.','images/testimonial1.webp')">
+        <p class="card-info">
+          <b>yonas’s Transformation</b><br>
+          Gained confidence and self-assurance in personal and professional life.<br>
+          <i>Tools: Confidence coaching, daily exercises</i>
+        </p>
+      </div>
+      <div class="card-container">
+        <img class="card-img" src="success/wellbeing.jpg" alt="John's Wellness Journey" onclick="openModal('John’s Journey','John enhanced his wellness and fitness through structured routines.','images/testimonial2.webp')">
+        <p class="card-info">
+          <b>melat’s Wellness Journey</b><br>
+          Improved physical fitness and daily energy levels.<br>
+          <i>Tools: Fitness plans, nutrition tracking</i>
+        </p>
+      </div>
+    
+    </div>
+  </section>
+
+  <!-- EDUCATION & CERTIFICATES SECTION -->
+  <section id="education" class="education fade-up">
+    <h2>My Education</h2>
+    <div class="edu-container">
+      <div class="edu-card">
+        <h3>High School</h3>
+        <p>School Name: ETEGE MENEN GIRLS BOARDING SCHOOL</p>
+        <span>2013 - still</span>
+      </div>
+      <div class="edu-card">
+        <h3>Future Goal</h3>
+        <p>software engineer / Science Field</p>
+        <span>Passionate Learner</span>
+      </div>
+    </div>
+
+    <h2 class="cert-title">My Certificates from Extracullicular Activities</h2>
+    <div class="cert-container">
+      <div class="cert-card">
+        <img src="images/cert1.webp" alt="Certificate 1">
+      </div>
+      <div class="cert-card">
+        <img src="images/cert2.webp" alt="Certificate 2">
+      </div>
+      <div class="cert-card">
+        <img src="images/cert3.webp" alt="Certificate 3">
+      </div>
+       <div class="cert-card">
+        <img src="images/cert4.webp" alt="Certificate 4">
+      </div>
+    </div>
+  </section>
+
+  <!-- TIPS SECTION -->
+  <section id="tips" class="section fade-up">
+    <h2>Confidence & Health Tips</h2>
+    <ul>
+      <li>Practice daily positive affirmations</li>
+      <li>Maintain balanced nutrition</li>
+      <li>Exercise regularly</li>
+      <li>Use mindfulness techniques</li>
+      <li>Set clear goals</li>
+      <li>Stay consistent</li>
+      <li>Keep a gratitude journal for daily positivity</li>
+      <li>Take short breaks to refresh your mind</li>
+      <li>Connect with supportive friends and mentors</li>
+    </ul>
+    <p><i>These simple steps help you boost mental clarity, confidence, and overall wellness daily.</i></p>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section id="contact" class="section fade-up">
+    <h2>Contact Me</h2>
+    <p>Email: mekdesteklemariam26@gmail.com</p>
+    <p>Location: Ethiopia</p>
+  </section>
+  <!-- MODAL -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <h2 id="modalTitle"></h2>
+      <img id="modalImage" width="100%">
+      <p id="modalDesc"></p>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <p>© 2026 Thrive with Confidence</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
